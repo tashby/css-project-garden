@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 2.5em;
+    background: rgba(57, 118, 162, 0.63);
+    text-align: center;
+    color:#fff;
+    font-weight: 100;
+    padding: 40px;
+}
+
+nav ul{
+  background:rgba(0, 103, 121, 0.5);
+}
+
+nav ul li, nav ul li a {
+  color:white;
+  display: inline-block;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  padding:20px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+nav ul li a:hover, nav ul li a:active{
+  background: rgba(57, 118, 162, 0.30);
+}
+
+main{
+  width: 95%;
+ margin:20px;
+ border: 1px solid black;
+}
+
+article {
+  background: rgba(0, 103, 121, 0.5)
+  border: 1px solid #ccc;
+  width: 65%;
+  padding: 20px;
+  float:left;
+}
+
+article h1{
+  color:white;
+}
+article img{
+  width: 70%;
+}
+article p{
+  color: rgba(130, 123, 125, 1);
+}
+article p span {
+  color: rgba(48, 48, 48, 1);
+}
+article a {
+  color: rgba(211 , 84, 0, 1);
+  display: block;
+  text-align: right;
+  padding: 0 40px 0 0;
+  text-decoration: none;
+}
+
+article a:hover{
+  color: rgba(211, 84, 0, 0.6);
+}
+
+aside{
+  width: 27%;
+  float: right;
+}
+aside .side, aside .recent{
+  border: 1px solid #ccc;
+  background: rgba(241 , 241, 241, 1);
+  color: rgba(211, 84, 0, 1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+aside .recent li{
+  background: rgba(230,230,230,1);
+  border:none;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+aside a{
+ color:rgba(0,0,0,.6);
+ text-decoration: none;
+}
+
+aside a:hover{
+  color:rgba(0,0,0,.6)
+}
+
+aside ul li {
+  list-style: none;
+  padding: 7px 0 5px 20;
+}
