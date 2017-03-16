@@ -60,7 +60,7 @@ article p span {
   color: rgba(48, 48, 48, 1);
 }
 article a {
-  color: rgba(211 , 84, 0, 1);
+  color: rgba(0, 103, 121, 0.5);
   display: block;
   text-align: right;
   padding: 0 40px 0 0;
@@ -68,7 +68,7 @@ article a {
 }
 
 article a:hover{
-  color: rgba(211, 84, 0, 0.6);
+  color: rgba(0, 103, 121, 0.5);
 }
 
 aside{
@@ -78,7 +78,7 @@ aside{
 aside .side, aside .recent{
   border: 1px solid #ccc;
   background: rgba(241 , 241, 241, 1);
-  color: rgba(211, 84, 0, 1);
+  color: rgba(0, 103, 121, 0.5);
   padding: 20px;
   margin-bottom: 20px;
 }
